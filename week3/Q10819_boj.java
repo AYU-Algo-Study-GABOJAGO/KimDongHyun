@@ -40,8 +40,9 @@ public class Q10819_boj {
             }
             result = Math.max(result,sum);
             return;
-
         }
+
+
         for (int i = 0; i < N; i++) {
 
             if(!visited[i]){
