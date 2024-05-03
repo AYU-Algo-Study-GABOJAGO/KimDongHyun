@@ -1,5 +1,6 @@
 package week3;
 
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,8 +17,8 @@ public class Q4963_boj {
     static int h;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(br.readLine());
 
         while(true){
 
@@ -29,7 +30,7 @@ public class Q4963_boj {
             visitied = new boolean[w][h]; //모두 false
 
             for(int i=0; i<w; i++){
-                stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+                stringTokenizer = new StringTokenizer(br.readLine());
                 for(int j=0; j<h; j++){
                     arr[i][j] = Integer.parseInt(stringTokenizer.nextToken());
                 }

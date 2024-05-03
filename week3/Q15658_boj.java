@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-public class Q15650_boj {
+public class Q15658_boj {
     public static int N;  // 1부터 N까지 자연수
     public static int M;  //수열의 길이가 M
     public static int[] num;
