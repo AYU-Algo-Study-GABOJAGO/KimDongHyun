@@ -1,5 +1,5 @@
+/*
 package week4;
-
 
 import java.io.*;
 import java.util.StringTokenizer;
@@ -18,3 +18,6 @@ public class Q9372_boj {
 }
 
 }
+
+
+ */
